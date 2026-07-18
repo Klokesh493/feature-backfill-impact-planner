@@ -1,0 +1,4 @@
+feature_group,days_to_backfill,downstream_models,estimated_executor_hours,customer_visible
+personalization,14,8,700,true
+analytics-lite,30,1,120,false
+risk-signals,7,5,350,true
