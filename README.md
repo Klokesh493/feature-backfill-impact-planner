@@ -22,6 +22,10 @@ python3 -m unittest discover . -v
 
 Run `make verify` with Make and Python 3 installed. The target runs the documented sample through the project CLI. It also runs the existing Python unit tests.
 
+## Business problem
+
+Feature backfills compete for compute. Operators need to compare downstream dependency and customer impact before choosing an order.
+
 ## Project walkthrough
 
 ```mermaid

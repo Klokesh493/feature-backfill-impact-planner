@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Ranks ML feature backfills by customer impact, compute pressure, and downstream dependency count.
+Feature backfills compete for compute. Operators need to compare downstream dependency and customer impact before choosing an order.
 
 ## Reproduce the workflow
 
