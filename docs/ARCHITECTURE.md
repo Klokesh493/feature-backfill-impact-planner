@@ -4,11 +4,11 @@ Ranks ML feature backfills by customer impact, compute pressure, and downstream 
 
 ```mermaid
 flowchart LR
-    N0["sample_backfills.csv"]
-    N1["backfill_planner.py"]
-    N2["risk score / plan"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Feature backfill CSV"]
+    B["Weight backfill days, downstream models, compute, and visibility"]
+    C["Rank by descending score"]
+    D["Ordered feature group risk scores"]
+    A --> B --> C --> D
 ```
 
 ## Operational boundaries
