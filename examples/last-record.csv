@@ -1,0 +1,2 @@
+feature_group,days_to_backfill,downstream_models,estimated_executor_hours,customer_visible
+risk-signals,7,5,350,true

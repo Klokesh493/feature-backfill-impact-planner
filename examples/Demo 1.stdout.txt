@@ -1,0 +1,3 @@
+personalization: 184.0
+risk-signals: 116.5
+analytics-lite: 78.0
