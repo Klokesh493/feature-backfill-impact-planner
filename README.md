@@ -2,6 +2,8 @@
 
 Feature backfills compete for compute. Operators need to compare downstream dependency and customer impact before choosing an order.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a feature backfill ranking CLI. It combines backfill duration, downstream model count, estimated executor hours, and customer visibility into a score that reviewers can use to sequence work.
